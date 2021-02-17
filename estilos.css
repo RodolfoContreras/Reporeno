@@ -1,0 +1,11 @@
+header {
+    border : 3px solid black;    
+}
+
+nav {
+    border: 3px solid green;
+}
+
+article {
+    border: 1px color peru;
+}
