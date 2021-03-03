@@ -23,6 +23,33 @@
                         <label for="correo">Correo:</label>
                         <input type="email" name="correo" id="correo">
                     </div>
+                    <!--lista desplegable-->
+                    <label for="carreras">Carreras:</label>
+                    <select name="carreras" id="carreras">
+                        <option value="2">LTI</option>
+                        <option value="2">LA</option>
+                        <option value="4">CP</option>
+                        <option value="3">LNI</option>
+                    </select>
+                    <!--data list element-->
+                    <div>
+                      <label for="lenguaje">Lenguaje favorito</label>
+                      <input type="text" name="lenguaje" id="lenguaje"
+                      list="lenguajes">
+                      <datalist id="lenguajes">
+                          <option value="python">
+                          <option value="c++">
+                          <option value="java">
+                          <option value="r">
+                          <option value="julian">
+                      </datalist> 
+                    </div>
+                    <div>
+                        <!--text area-->
+                    <label for="comentarios">Comentarios:</label>
+                    <textarea name="comentarios" id="comentarios" cols="30"
+                    rows="10"></textarea>
+                    </div>
                 </fieldset>
             </form>
         </article>
